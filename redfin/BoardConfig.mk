@@ -34,3 +34,5 @@ else
 endif
 
 BUILD_BROKEN_INCORRECT_PARTITION_IMAGES := true
+
+include device/google/redfin/BoardConfigLineage.mk
