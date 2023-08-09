@@ -6,9 +6,6 @@
 
 $(call inherit-product, device/google/redbull/device-lineage.mk)
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/redfin/overlay-lineage
-
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.device-V2-ndk.vendor:64 \
@@ -27,3 +24,8 @@ PRODUCT_PACKAGES += \
 
 # wireless_charger HAL service
 include device/google/redfin/wireless_charger/wireless_charger.mk
+
+# Overlays
+PRODUCT_PACKAGES += \
+    RedfinSystemUIOverlay \
+    RedfinSettingsOverlay
