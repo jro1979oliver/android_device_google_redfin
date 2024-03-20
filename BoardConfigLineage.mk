@@ -12,4 +12,7 @@ include device/google/redbull/BoardConfigLineage.mk
 BOOT_SECURITY_PATCH := 2023-11-05
 VENDOR_SECURITY_PATCH := 2023-11-05
 
+# Custom system props
+TARGET_SYSTEM_PROP += device/google/redfin/system.prop
+
 include vendor/google/redfin/BoardConfigVendor.mk
