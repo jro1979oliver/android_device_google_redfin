@@ -2,5 +2,9 @@
   {
     "repository": "android_device_google_redbull",
     "target_path": "device/google/redbull"
+  },
+  {
+    "repository": "android_vendor_google_redfin",
+    "target_path": "vendor/google/redfin"
   }
 ]
