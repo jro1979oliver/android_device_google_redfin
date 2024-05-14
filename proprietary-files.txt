@@ -105,9 +105,6 @@ system_ext/priv-app/HbmSVManager/HbmSVManager.apk|b7c4bd54334714da94f1bcfb16fb44
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
-# NFC
-system_ext/priv-app/PixelNfc/PixelNfc.apk
-
 # Permissions
 system_ext/etc/permissions/privapp-permissions-google-se.xml:system_ext/etc/permissions/privapp-permissions-google-se-lineage.xml
 
@@ -115,7 +112,6 @@ system_ext/etc/permissions/privapp-permissions-google-se.xml:system_ext/etc/perm
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/app/atfwd/atfwd.apk
 system_ext/app/datastatusnotification/datastatusnotification.apk
-system_ext/app/uceShimService/uceShimService.apk
 system_ext/etc/perf/wlc_model.tflite
 system_ext/etc/permissions/com.qti.dpmframework.xml
 system_ext/etc/permissions/com.qti.media.secureprocessor.xml
